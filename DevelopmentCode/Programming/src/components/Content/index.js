@@ -846,60 +846,12 @@ export default class Content extends React.Component {
             itemImg:
               "http://cd.cduukj.com/wp-content/uploads/2020/09/2020092723174661.ico",
           },
-          // Chrome插件
-          {
-            itemName: "EasyUI文档",
-            itemUrl: "https://www.jeasyui.net/",
-            itemImg:
-              "https://www.jeasyui.net/Application/Home/View/Public/img/favicon.ico",
-          },
+          // Chrome插件 下面是将要更新的内容
           {
             itemName: "MatPlotLib",
             itemUrl: "https://matplotlib.org/",
             itemImg:
               "https://matplotlib.org/_static/favicon.ico",
-          },
-          {
-            itemName: "Anaconda",
-            itemUrl: "https://www.anaconda.com/",
-            itemImg:
-              "https://www.anaconda.com/assets/build/favicons/apple-touch-icon-5bbdb087c5.png",
-          },
-          {
-            itemName: "NumPy",
-            itemUrl: "http://www.numpy.org.cn/",
-            itemImg:
-              "https://www.numpy.org.cn/icons/safari-pinned-tab.svg",
-          },
-          {
-            itemName: "Pandas",
-            itemUrl: "https://pandas.pydata.org/",
-            itemImg:
-              "https://pandas.pydata.org/static/img/pandas_white.svg",
-          },
-          {
-            itemName: "Pandas中文",
-            itemUrl: "https://www.pypandas.cn/",
-            itemImg:
-              "https://www.pypandas.cn/icons/apple-touch-icon-152x152.png",
-          },
-          {
-            itemName: "PyTorch",
-            itemUrl: "https://pytorch.org/",
-            itemImg:
-              "https://pytorch.org/favicon.ico",
-          },
-          {
-            itemName: "百度开放平台",
-            itemUrl: "https://ai.baidu.com/",
-            itemImg:
-              "https://aip.bdstatic.com/portal-pc-node/dist/1652787772063/favicon-32.ico",
-          },
-          {
-            itemName: "PyQt",
-            itemUrl: "https://www.qt.io/zh-cn/",
-            itemImg:
-              "https://www.qt.io/hubfs/qt-design-system/assets/logos/qt-logo.svg",
           },
         ]
       ]
