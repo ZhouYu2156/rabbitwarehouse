@@ -853,6 +853,24 @@ export default class Content extends React.Component {
             itemImg:
               "https://git-scm.com/favicon.ico",
           },
+          {
+            itemName: "Gitee码云",
+            itemUrl: "https://gitee.com/",
+            itemImg:
+              "https://gitee.com/static/images/logo_themecolor.png",
+          },
+          {
+            itemName: "百度翻译",
+            itemUrl: "https://fanyi.baidu.com/home",
+            itemImg:
+              "https://fanyi.baidu.com/favicon.ico",
+          },
+          {
+            itemName: "百度地图API",
+            itemUrl: "https://lbsyun.baidu.com/",
+            itemImg:
+              "https://mapopen-website-wiki.cdn.bcebos.com/LOGO/lbsyunlogo_icon.ico",
+          },
         ]
       ]
     };
