@@ -848,10 +848,10 @@ export default class Content extends React.Component {
           },
           // Chrome插件 下面是将要更新的内容
           {
-            itemName: "MatPlotLib",
-            itemUrl: "https://matplotlib.org/",
+            itemName: "Git官网",
+            itemUrl: "https://git-scm.com/",
             itemImg:
-              "https://matplotlib.org/_static/favicon.ico",
+              "https://git-scm.com/favicon.ico",
           },
         ]
       ]
