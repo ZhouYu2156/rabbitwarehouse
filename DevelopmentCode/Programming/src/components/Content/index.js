@@ -889,6 +889,18 @@ export default class Content extends React.Component {
             itemImg:
               "https://mapopen-website-wiki.cdn.bcebos.com/LOGO/lbsyunlogo_icon.ico",
           },
+          {
+            itemName: "Microsoft官网",
+            itemUrl: "https://www.microsoft.com/zh-cn/",
+            itemImg:
+              "https://mapopen-website-wiki.cdn.bcebos.com/LOGO/lbsyunlogo_icon.ico",
+          },
+          {
+            itemName: "Microsoft官网",
+            itemUrl: "https://www.microsoft.com/zh-cn/",
+            itemImg:
+              "https://mapopen-website-wiki.cdn.bcebos.com/LOGO/lbsyunlogo_icon.ico",
+          },
         ]
       ]
     };
