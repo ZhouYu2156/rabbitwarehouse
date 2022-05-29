@@ -105,8 +105,7 @@ export default class Content extends React.Component {
           {
             itemName: "程序员客栈",
             itemUrl: "https://www.proginn.com/",
-            itemImg:
-              "https://stacdn.proginn.com/favicon_new.ico",
+            itemImg: "https://stacdn.proginn.com/favicon_new.ico",
           },
           {
             itemName: "Less",
@@ -136,19 +135,18 @@ export default class Content extends React.Component {
           {
             itemName: "Bootstrap3",
             itemUrl: "https://www.bootcss.com/",
-            itemImg: "https://v4.bootcss.com/docs/4.6/assets/img/favicons/favicon-32x32.png",
+            itemImg:
+              "https://v4.bootcss.com/docs/4.6/assets/img/favicons/favicon-32x32.png",
           },
           {
             itemName: "dowebok",
             itemUrl: "https://www.dowebok.com/code",
-            itemImg:
-              "https://www.dowebok.com/favicon.ico",
+            itemImg: "https://www.dowebok.com/favicon.ico",
           },
           {
             itemName: "Python",
             itemUrl: "https://www.python.org/",
-            itemImg:
-              "https://www.python.org/static/favicon.ico",
+            itemImg: "https://www.python.org/static/favicon.ico",
           },
         ],
         // 第三页
@@ -179,12 +177,14 @@ export default class Content extends React.Component {
           {
             itemName: "Sass",
             itemUrl: "https://www.sasscss.com/",
-            itemImg: "https://www.sasscss.com/assets/img/logos/sass-77bd637b.png",
+            itemImg:
+              "https://www.sasscss.com/assets/img/logos/sass-77bd637b.png",
           },
           {
             itemName: "jQuery文档",
             itemUrl: "https://www.jquery123.com/",
-            itemImg: "https://www.jquery123.com/assets/images/jquery-logo-md.png",
+            itemImg:
+              "https://www.jquery123.com/assets/images/jquery-logo-md.png",
           },
           {
             itemName: "前端文档工具",
@@ -287,8 +287,7 @@ export default class Content extends React.Component {
           {
             itemName: "菜鸟教程",
             itemUrl: "https://www.runoob.com/",
-            itemImg:
-              "https://static.runoob.com/images/favicon.ico",
+            itemImg: "https://static.runoob.com/images/favicon.ico",
           },
         ],
         // 第五页
@@ -296,7 +295,8 @@ export default class Content extends React.Component {
           {
             itemName: "Bootstrap",
             itemUrl: "https://www.bootcss.com/",
-            itemImg: "https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.53/dist/ico/favicon.ico",
+            itemImg:
+              "https://fastly.jsdelivr.net/npm/@bootcss/www.bootcss.com@0.0.53/dist/ico/favicon.ico",
           },
           {
             itemName: "TailwindCSS",
@@ -311,7 +311,8 @@ export default class Content extends React.Component {
           {
             itemName: "Vue.js",
             itemUrl: "https://vuejs.bootcss.com/",
-            itemImg: "https://vuejs.bootcss.com/images/icons/apple-icon-60x60.png",
+            itemImg:
+              "https://vuejs.bootcss.com/images/icons/apple-icon-60x60.png",
           },
           {
             itemName: "Svelte.js",
@@ -364,7 +365,8 @@ export default class Content extends React.Component {
           {
             itemName: "Yarn",
             itemUrl: "https://www.yarnpkg.cn/",
-            itemImg: "https://www.yarnpkg.cn/favicon-32x32.png?v=6143f50112ddba9fdb635b0af2f32aff",
+            itemImg:
+              "https://www.yarnpkg.cn/favicon-32x32.png?v=6143f50112ddba9fdb635b0af2f32aff",
           },
           {
             itemName: "webpack",
@@ -404,17 +406,20 @@ export default class Content extends React.Component {
           {
             itemName: "Gatsby.js",
             itemUrl: "https://www.gatsbyjs.cn/",
-            itemImg: "https://www.gatsbyjs.cn/icons/icon-48x48.png?v=edf3d310d67f8284a562bc3a58c3e761",
+            itemImg:
+              "https://www.gatsbyjs.cn/icons/icon-48x48.png?v=edf3d310d67f8284a562bc3a58c3e761",
           },
           {
             itemName: "Gridsome",
             itemUrl: "https://www.gridsome.cn/",
-            itemImg: "https://www.gridsome.cn/assets/static/favicon.b9532cc.c6d52b979318cc0b0524324281174df2.png",
+            itemImg:
+              "https://www.gridsome.cn/assets/static/favicon.b9532cc.c6d52b979318cc0b0524324281174df2.png",
           },
           {
             itemName: "VuePress",
             itemUrl: "https://www.vuepress.cn/",
-            itemImg: "https://www.vuepress.cn/icons/msapplication-icon-144x144.png",
+            itemImg:
+              "https://www.vuepress.cn/icons/msapplication-icon-144x144.png",
           },
         ],
         // 第七页
@@ -422,7 +427,8 @@ export default class Content extends React.Component {
           {
             itemName: "SASS",
             itemUrl: "https://www.sasscss.com/",
-            itemImg: "https://www.sasscss.com/assets/img/logos/sass-77bd637b.png",
+            itemImg:
+              "https://www.sasscss.com/assets/img/logos/sass-77bd637b.png",
           },
           {
             itemName: "Less.js",
@@ -462,7 +468,8 @@ export default class Content extends React.Component {
           {
             itemName: "Fastify",
             itemUrl: "https://www.fastify.cn/",
-            itemImg: "https://www.fastify.cn/images/apple-icon-72x72.e49b27cfe1ab1461.png",
+            itemImg:
+              "https://www.fastify.cn/images/apple-icon-72x72.e49b27cfe1ab1461.png",
           },
           {
             itemName: "Rome",
@@ -472,7 +479,8 @@ export default class Content extends React.Component {
           {
             itemName: "Mirage",
             itemUrl: "https://www.miragejs.cn/",
-            itemImg: "https://www.miragejs.cn/favicon-32x32.png?v=4b2671f784721600311c3551544b1101",
+            itemImg:
+              "https://www.miragejs.cn/favicon-32x32.png?v=4b2671f784721600311c3551544b1101",
           },
           {
             itemName: "goHugo",
@@ -520,7 +528,8 @@ export default class Content extends React.Component {
           {
             itemName: "Handlebars",
             itemUrl: "https://www.handlebarsjs.cn/",
-            itemImg: "https://www.handlebarsjs.cn/images/handlebars_logo_bg.png",
+            itemImg:
+              "https://www.handlebarsjs.cn/images/handlebars_logo_bg.png",
           },
           {
             itemName: "Pug",
@@ -613,8 +622,7 @@ export default class Content extends React.Component {
           {
             itemName: "醉牛前端",
             itemUrl: "https://f2er.club/",
-            itemImg:
-              "https://f2er.club/img/favicon.ico",
+            itemImg: "https://f2er.club/img/favicon.ico",
           },
           {
             itemName: "GUI编程网",
@@ -630,7 +638,8 @@ export default class Content extends React.Component {
           {
             itemName: "BootstrapCDN",
             itemUrl: "https://www.bootstrapcdn.com/",
-            itemImg: "https://www.bootstrapcdn.com/assets/img/favicons/favicon.3f81f6a.ico",
+            itemImg:
+              "https://www.bootstrapcdn.com/assets/img/favicons/favicon.3f81f6a.ico",
           },
           {
             itemName: "React构建教程",
@@ -672,8 +681,7 @@ export default class Content extends React.Component {
           {
             itemName: "jQueryAPI文档",
             itemUrl: "https://jqueryapi.net/",
-            itemImg:
-              "https://jqueryapi.net/favicon.ico",
+            itemImg: "https://jqueryapi.net/favicon.ico",
           },
         ],
         // 第十一页
@@ -681,44 +689,37 @@ export default class Content extends React.Component {
           {
             itemName: "Hutool",
             itemUrl: "https://hutool.cn/",
-            itemImg:
-              "https://plus.hutool.cn/images/logo_484.png",
+            itemImg: "https://plus.hutool.cn/images/logo_484.png",
           },
           {
             itemName: "LeafLetJS",
             itemUrl: "https://leafletjs.com/",
-            itemImg:
-              "https://leafletjs.com/docs/images/favicon.ico",
+            itemImg: "https://leafletjs.com/docs/images/favicon.ico",
           },
           {
             itemName: "MDN文档",
             itemUrl: "https://developer.mozilla.org/zh-CN/",
-            itemImg:
-              "https://developer.mozilla.org/favicon-48x48.cbbd161b.png",
+            itemImg: "https://developer.mozilla.org/favicon-48x48.cbbd161b.png",
           },
           {
             itemName: "HTML标准",
             itemUrl: "https://html.spec.whatwg.org/",
-            itemImg:
-              "https://resources.whatwg.org/logo.svg",
+            itemImg: "https://resources.whatwg.org/logo.svg",
           },
           {
             itemName: "CanvasAPI",
             itemUrl: "https://www.canvasapi.cn/",
-            itemImg:
-              "https://www.canvasapi.cn/favicon.ico",
+            itemImg: "https://www.canvasapi.cn/favicon.ico",
           },
           {
             itemName: "Cesium3D",
             itemUrl: "https://cesium.com/",
-            itemImg:
-              "https://cesium.com/cesium-logomark-192.png",
+            itemImg: "https://cesium.com/cesium-logomark-192.png",
           },
           {
             itemName: "LayUI",
             itemUrl: "https://www.layuion.com/",
-            itemImg:
-              "https://www.layuion.com/favicon.ico",
+            itemImg: "https://www.layuion.com/favicon.ico",
           },
           {
             itemName: "Bootstrap5",
@@ -730,19 +731,17 @@ export default class Content extends React.Component {
             itemName: "花瓣资源",
             itemUrl: "https://www.hbzyz.org/",
             itemImg:
-          "https://www.hbzyz.org/zb_users/upload/2020/11/202011221606031120713778.png",
+              "https://www.hbzyz.org/zb_users/upload/2020/11/202011221606031120713778.png",
           },
           {
             itemName: "EnglishClub",
             itemUrl: "https://www.englishclub.com/",
-            itemImg:
-              "https://www.englishclub.com/favicon-32x32.png",
+            itemImg: "https://www.englishclub.com/favicon-32x32.png",
           },
           {
             itemName: "查字典",
             itemUrl: "https://www.chazidian.com/",
-            itemImg:
-              "https://www.chazidian.com/favicon.ico",
+            itemImg: "https://www.chazidian.com/favicon.ico",
           },
           {
             itemName: "Cambridge",
@@ -756,8 +755,7 @@ export default class Content extends React.Component {
           {
             itemName: "数据分析",
             itemUrl: "https://spssau.com/",
-            itemImg:
-              "https://spssau.com/favicon.png",
+            itemImg: "https://spssau.com/favicon.png",
           },
           {
             itemName: "全历史",
@@ -768,8 +766,7 @@ export default class Content extends React.Component {
           {
             itemName: "EasyUI官网",
             itemUrl: "http://www.jeasyui.com/",
-            itemImg:
-              "https://www.jeasyui.com/favicon.ico",
+            itemImg: "https://www.jeasyui.com/favicon.ico",
           },
           {
             itemName: "EasyUI文档",
@@ -780,8 +777,7 @@ export default class Content extends React.Component {
           {
             itemName: "MatPlotLib",
             itemUrl: "https://matplotlib.org/",
-            itemImg:
-              "https://matplotlib.org/_static/favicon.ico",
+            itemImg: "https://matplotlib.org/_static/favicon.ico",
           },
           {
             itemName: "Anaconda",
@@ -792,14 +788,12 @@ export default class Content extends React.Component {
           {
             itemName: "NumPy",
             itemUrl: "http://www.numpy.org.cn/",
-            itemImg:
-              "https://www.numpy.org.cn/icons/safari-pinned-tab.svg",
+            itemImg: "https://www.numpy.org.cn/icons/safari-pinned-tab.svg",
           },
           {
             itemName: "Pandas",
             itemUrl: "https://pandas.pydata.org/",
-            itemImg:
-              "https://pandas.pydata.org/static/img/pandas_white.svg",
+            itemImg: "https://pandas.pydata.org/static/img/pandas_white.svg",
           },
           {
             itemName: "Pandas中文",
@@ -810,8 +804,7 @@ export default class Content extends React.Component {
           {
             itemName: "PyTorch",
             itemUrl: "https://pytorch.org/",
-            itemImg:
-              "https://pytorch.org/favicon.ico",
+            itemImg: "https://pytorch.org/favicon.ico",
           },
           {
             itemName: "百度开放平台",
@@ -837,8 +830,7 @@ export default class Content extends React.Component {
           {
             itemName: "画夹插件",
             itemUrl: "https://huajiakeji.com/",
-            itemImg:
-              "https://huajiakeji.com/favicon.ico",
+            itemImg: "https://huajiakeji.com/favicon.ico",
           },
           {
             itemName: "插件大全",
@@ -850,20 +842,17 @@ export default class Content extends React.Component {
           {
             itemName: "Git官网",
             itemUrl: "https://git-scm.com/",
-            itemImg:
-              "https://git-scm.com/favicon.ico",
+            itemImg: "https://git-scm.com/favicon.ico",
           },
           {
             itemName: "Gitee码云",
             itemUrl: "https://gitee.com/",
-            itemImg:
-              "https://gitee.com/static/images/logo_themecolor.png",
+            itemImg: "https://gitee.com/static/images/logo_themecolor.png",
           },
           {
             itemName: "百度翻译",
             itemUrl: "https://fanyi.baidu.com/home",
-            itemImg:
-              "https://fanyi.baidu.com/favicon.ico",
+            itemImg: "https://fanyi.baidu.com/favicon.ico",
           },
           {
             itemName: "百度地图API",
@@ -880,29 +869,26 @@ export default class Content extends React.Component {
           {
             itemName: "D3.js",
             itemUrl: "https://d3js.org/",
-            itemImg:
-              "https://d3js.org/favicon.png",
+            itemImg: "https://d3js.org/favicon.png",
           },
           {
             itemName: "Microsoft官网",
             itemUrl: "https://www.microsoft.com/zh-cn/",
-            itemImg:
-              "https://c.s-microsoft.com/favicon.ico?v2",
+            itemImg: "https://c.s-microsoft.com/favicon.ico?v2",
           },
           {
-            itemName: "Microsoft官网",
-            itemUrl: "https://www.microsoft.com/zh-cn/",
-            itemImg:
-              "https://c.s-microsoft.com/favicon.ico?v2",
+            itemName: "Node中文网",
+            itemUrl: "http://nodejs.cn/",
+            itemImg: "http://img.nodejs.cn/favicon.png",
           },
           {
-            itemName: "Microsoft官网",
-            itemUrl: "https://www.microsoft.com/zh-cn/",
+            itemName: "Node官网",
+            itemUrl: "https://nodejs.dev/",
             itemImg:
-              "https://c.s-microsoft.com/favicon.ico?v2",
+              "https://nodejs.dev/icons/icon-48x48.png?v=adbe265cf4d3f10447eb015f0951c53c",
           },
-        ]
-      ]
+        ],
+      ],
     };
   }
   render() {
