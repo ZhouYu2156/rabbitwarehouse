@@ -128,9 +128,9 @@ export default class Content extends React.Component {
             itemImg: "https://react.docschina.org/logo-180x180.png",
           },
           {
-            itemName: "Vue",
-            itemUrl: "https://cn.vuejs.org/",
-            itemImg: "https://cn.vuejs.org/images/icons/favicon-96x96.png",
+            itemName: "Vue3",
+            itemUrl: "https://vuejs.org/",
+            itemImg: "https://vuejs.org/logo.svg",
           },
           {
             itemName: "Bootstrap3",
@@ -838,7 +838,6 @@ export default class Content extends React.Component {
             itemImg:
               "http://cd.cduukj.com/wp-content/uploads/2020/09/2020092723174661.ico",
           },
-          // Chrome插件 下面是将要更新的内容
           {
             itemName: "Git官网",
             itemUrl: "https://git-scm.com/",
@@ -886,6 +885,14 @@ export default class Content extends React.Component {
             itemUrl: "https://nodejs.dev/",
             itemImg:
               "https://nodejs.dev/icons/icon-48x48.png?v=adbe265cf4d3f10447eb015f0951c53c",
+          },
+        ],
+        [
+          {
+            itemName: "Electron",
+            itemUrl: "https://www.electronjs.org/",
+            itemImg:
+              "https://www.electronjs.org/images/favicon.b7a59262df48d6563400baf5671da548.ico",
           },
         ],
       ],
