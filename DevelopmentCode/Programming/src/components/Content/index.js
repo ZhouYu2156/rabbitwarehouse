@@ -936,6 +936,11 @@ export default class Content extends React.Component {
             itemUrl: "https://www.adobe.com/cn/",
             itemImg: "https://www.adobe.com/favicon.ico",
           },
+          {
+            itemName: "Markdown",
+            itemUrl: "https://markdown.com.cn/",
+            itemImg: "https://markdown.com.cn/hero.png",
+          },
         ],
       ],
     };
