@@ -91,7 +91,9 @@ export default class SourceLinks extends React.Component {
   render() {
     return (
       <div className="row align-items-center mt-5">
-        <div className="col-sm-10 col-md-8 col-lg-6 mx-auto">{this.renderAll()}</div>
+        <div className="col-sm-10 col-md-8 col-lg-6 mx-auto">
+          {this.renderAll()}
+        </div>
       </div>
     );
   }

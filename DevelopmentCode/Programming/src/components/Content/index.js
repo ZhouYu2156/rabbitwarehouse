@@ -124,8 +124,8 @@ export default class Content extends React.Component {
           },
           {
             itemName: "React",
-            itemUrl: "https://react.docschina.org/docs/getting-started.html",
-            itemImg: "https://react.docschina.org/logo-180x180.png",
+            itemUrl: "https://reactjs.org/",
+            itemImg: "https://reactjs.org/logo-180x180.png",
           },
           {
             itemName: "Vue3",
@@ -887,12 +887,29 @@ export default class Content extends React.Component {
               "https://nodejs.dev/icons/icon-48x48.png?v=adbe265cf4d3f10447eb015f0951c53c",
           },
         ],
+        // 第十三页
         [
           {
             itemName: "Electron",
             itemUrl: "https://www.electronjs.org/",
             itemImg:
               "https://www.electronjs.org/images/favicon.b7a59262df48d6563400baf5671da548.ico",
+          },
+          {
+            itemName: "Vue3中文网",
+            itemUrl: "https://staging-cn.vuejs.org/",
+            itemImg: "https://staging-cn.vuejs.org/logo.svg",
+          },
+          {
+            itemName: "Vue脚手架",
+            itemUrl: "https://cli.vuejs.org/zh/",
+            itemImg: "https://staging-cn.vuejs.org/logo.svg",
+          },
+          {
+            itemName: "React脚手架",
+            itemUrl: "https://create-react-app.bootcss.com/",
+            itemImg:
+              "https://create-react-app.bootcss.com/img/favicon/favicon.ico",
           },
         ],
       ],
