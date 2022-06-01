@@ -1,6 +1,6 @@
 # npm工具包使用简介
 
-1、i5ting_toc是一个可以把md文档转换为html页面的小工具，使用步骤如下：
+**1、i5ting_toc是一个可以把md文档转换为html页面的小工具，使用步骤如下：**
 
 ```md
 // 将 i5ting_toc 安装为全局包
@@ -9,7 +9,7 @@ npm install -g i5ting_toc
 i5ting_toc -f 要转换的 md 文件路径 -o(该参数表示自动在浏览器打开转换后的html文件)
 ```
 
-2、typescript将TS文件转换为JS文件
+**2、typescript将TS文件转换为JS文件**
 
 ```cmd
 # （全局）安装typescript工具包

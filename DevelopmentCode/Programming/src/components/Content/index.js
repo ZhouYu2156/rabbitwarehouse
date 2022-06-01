@@ -911,6 +911,31 @@ export default class Content extends React.Component {
             itemImg:
               "https://create-react-app.bootcss.com/img/favicon/favicon.ico",
           },
+          {
+            itemName: "即时设计",
+            itemUrl: "https://js.design/home",
+            itemImg: "https://img.js.design/assets/webImg/favicon.ico",
+          },
+          {
+            itemName: "虎课网",
+            itemUrl: "https://huke88.com/",
+            itemImg: "https://huke88.com/favicon.ico",
+          },
+          {
+            itemName: "慕课网",
+            itemUrl: "https://www.imooc.com/",
+            itemImg: "https://www.imooc.com/favicon.ico",
+          },
+          {
+            itemName: "传智播客",
+            itemUrl: "https://www.itcast.cn/",
+            itemImg: "https://www.itcast.cn/images/logo2020.jpg",
+          },
+          {
+            itemName: "Adobe",
+            itemUrl: "https://www.adobe.com/cn/",
+            itemImg: "https://www.adobe.com/favicon.ico",
+          },
         ],
       ],
     };
