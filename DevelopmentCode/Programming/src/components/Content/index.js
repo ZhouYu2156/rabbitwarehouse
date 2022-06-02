@@ -986,7 +986,8 @@ export default class Content extends React.Component {
           },
           {
             itemName: "资格考试网大全",
-            itemUrl: qualifications,
+            itemUrl:
+              "https://zhouyu2156.gitee.io/rabbitwarehouse/DevelopmentCode/Programming/src/assets/qualifications.pdf",
             itemImg:
               "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg2.3png.com%2Fabce6ca4b424484603c48e3ec4854eb9e2f2.png&refer=http%3A%2F%2Fimg2.3png.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1656772257&t=844e3743f8d2071632f278c80d811689",
           },
