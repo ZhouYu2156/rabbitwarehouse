@@ -1,6 +1,7 @@
 import React from "react";
 import Search from "../Search";
 import SourceLinks from "../SourceLinks";
+import qualifications from "../../assets/qualifications.pdf";
 export default class Content extends React.Component {
   constructor() {
     super();
@@ -912,6 +913,11 @@ export default class Content extends React.Component {
               "https://create-react-app.bootcss.com/img/favicon/favicon.ico",
           },
           {
+            itemName: "python中文网",
+            itemUrl: "https://www.python-china.com/",
+            itemImg: "https://www.python.org/static/favicon.ico",
+          },
+          {
             itemName: "即时设计",
             itemUrl: "https://js.design/home",
             itemImg: "https://img.js.design/assets/webImg/favicon.ico",
@@ -940,6 +946,49 @@ export default class Content extends React.Component {
             itemName: "Markdown",
             itemUrl: "https://markdown.com.cn/",
             itemImg: "https://markdown.com.cn/hero.png",
+          },
+          {
+            itemName: "知末",
+            itemUrl: "https://www.znzmo.com/",
+            itemImg: "https://cdn.code.znzmo.com/lanmuUpdate/img/favicon.ico",
+          },
+        ],
+        [
+          {
+            itemName: "软考官网",
+            itemUrl: "https://www.ruankao.org.cn/",
+            itemImg: "https://www.ruankao.org.cn/asset/image/public/logo2.png",
+          },
+          {
+            itemName: "100百分自考网",
+            itemUrl: "https://www.exam100.net/html/zkzn/",
+            itemImg: "https://www.exam100.net/favicon.ico",
+          },
+          {
+            itemName: "学信网",
+            itemUrl: "https://www.chsi.com.cn/",
+            itemImg: "https://t1.chei.com.cn/chsi/favicon.ico",
+          },
+          {
+            itemName: "会计网",
+            itemUrl: "http://kzp.mof.gov.cn/",
+            itemImg: "https://kzp.mof.gov.cn/assets/images/favicon.ico",
+          },
+          {
+            itemName: "全国普通话考试",
+            itemUrl: "http://www.cltt.org/#/webHome",
+            itemImg: "https://www.cltt.org/favicon.ico",
+          },
+          {
+            itemName: "中国教育考试网",
+            itemUrl: "http://www.neea.edu.cn/",
+            itemImg: "http://www.neea.edu.cn/res/Home/structure/22051678.png",
+          },
+          {
+            itemName: "资格考试网大全",
+            itemUrl: qualifications,
+            itemImg:
+              "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg2.3png.com%2Fabce6ca4b424484603c48e3ec4854eb9e2f2.png&refer=http%3A%2F%2Fimg2.3png.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1656772257&t=844e3743f8d2071632f278c80d811689",
           },
         ],
       ],
