@@ -1,5 +1,4 @@
 import React from "react";
-import sponsorCode from "../../assets/sponsor.JPG";
 
 export default class Modals extends React.Component {
   constructor(props) {
@@ -26,7 +25,7 @@ export default class Modals extends React.Component {
             </div>
             <div className="modal-body text-center">
               <img
-                src={sponsorCode}
+                src="https://gitee.com/zhouyu2156/rabbitwarehouse/tree/master/DevelopmentCode/Programming/src/assets/sponsor.JPG"
                 alt=""
                 style={{ width: "15rem", height: "15rem" }}
               />
