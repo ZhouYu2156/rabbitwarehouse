@@ -1,10 +1,10 @@
 import React from "react";
-import initBg from "./star";
+import CodeRain from "./code";
 
 // 创建Canvas绘制网页背景图组件
-export default class Canvas extends React.Component {
+export default class CodeRainCanvas extends React.Component {
   componentDidMount() {
-    initBg(document.getElementById("cxt"));
+    CodeRain(document.getElementById("cxt"));
     let timer = null;
     window.onresize = function () {
       if (timer) {
@@ -16,7 +16,7 @@ export default class Canvas extends React.Component {
         let ctx = canvas.getContext("2d");
         ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
         // 进行重绘
-        return initBg(document.getElementById("cxt"));
+        return CodeRain(document.getElementById("cxt"));
       }, 1000);
     };
   }

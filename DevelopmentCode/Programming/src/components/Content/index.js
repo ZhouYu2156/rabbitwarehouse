@@ -1,7 +1,7 @@
 import React from "react";
 import Search from "../Search";
 import SourceLinks from "../SourceLinks";
-import qualifications from "../../assets/qualifications.pdf";
+
 export default class Content extends React.Component {
   constructor() {
     super();
@@ -252,10 +252,11 @@ export default class Content extends React.Component {
               "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.qzroc.com%2Fusr%2Fuploads%2F2020%2F06%2F3080200810.jpeg&refer=http%3A%2F%2Fwww.qzroc.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1650524138&t=3a7b9f4c450245a97954bc3deb13cfd5",
           },
           {
-            itemName: "JS库推荐",
-            itemUrl: "https://www.cnblogs.com/hustshu/p/14696850.html",
+            itemName: "资格考试网大全",
+            itemUrl:
+              "https://zhouyu2156.gitee.io/rabbitwarehouse/DevelopmentCode/Programming/src/assets/qualifications.pdf",
             itemImg:
-              "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg95.699pic.com%2Fxsj%2F1h%2F5h%2Fkd.jpg%21%2Ffw%2F700%2Fwatermark%2Furl%2FL3hzai93YXRlcl9kZXRhaWwyLnBuZw%2Falign%2Fsoutheast&refer=http%3A%2F%2Fimg95.699pic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1650525350&t=63e400152814db39fd80aab01beb992e",
+              "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg2.3png.com%2Fabce6ca4b424484603c48e3ec4854eb9e2f2.png&refer=http%3A%2F%2Fimg2.3png.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1656772257&t=844e3743f8d2071632f278c80d811689",
           },
           {
             itemName: "HTML实时标准",
@@ -307,7 +308,7 @@ export default class Content extends React.Component {
           {
             itemName: "React.js",
             itemUrl: "https://reactjs.bootcss.com/",
-            itemImg: "https://reactjs.bootcss.com/logo-og.png",
+            itemImg: "https://reactjs.bootcss.com/favicon.ico",
           },
           {
             itemName: "Vue.js",
@@ -894,7 +895,7 @@ export default class Content extends React.Component {
             itemName: "Electron",
             itemUrl: "https://www.electronjs.org/",
             itemImg:
-              "https://www.electronjs.org/images/favicon.b7a59262df48d6563400baf5671da548.ico",
+              "https://static.oschina.net/uploads/logo/electron_tAOTZ.png",
           },
           {
             itemName: "Vue3中文网",
@@ -960,6 +961,11 @@ export default class Content extends React.Component {
             itemImg: "https://www.ruankao.org.cn/asset/image/public/logo2.png",
           },
           {
+            itemName: "pip官网",
+            itemUrl: "https://pypi.org/",
+            itemImg: "https://pypi.org/static/images/logo-small.95de8436.svg",
+          },
+          {
             itemName: "100百分自考网",
             itemUrl: "https://www.exam100.net/html/zkzn/",
             itemImg: "https://www.exam100.net/favicon.ico",
@@ -985,11 +991,31 @@ export default class Content extends React.Component {
             itemImg: "http://www.neea.edu.cn/res/Home/structure/22051678.png",
           },
           {
-            itemName: "资格考试网大全",
-            itemUrl:
-              "https://zhouyu2156.gitee.io/rabbitwarehouse/DevelopmentCode/Programming/src/assets/qualifications.pdf",
+            itemName: "免费API",
+            itemUrl: "https://api.aa1.cn/",
             itemImg:
-              "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg2.3png.com%2Fabce6ca4b424484603c48e3ec4854eb9e2f2.png&refer=http%3A%2F%2Fimg2.3png.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1656772257&t=844e3743f8d2071632f278c80d811689",
+              "https://www.wpon.cn/wp-content/uploads/2021/06/cropped-2021061403342088-192x192.png",
+          },
+          {
+            itemName: "Apifox",
+            itemUrl: "https://www.apifox.cn/",
+            itemImg: "https://cdn.apifox.cn/logo/apifox-logo-512.png",
+          },
+          {
+            itemName: "聚合数据API",
+            itemUrl: "https://www.juhe.cn/",
+            itemImg: "https://www.juhe.cn/favicon.ico",
+          },
+          {
+            itemName: "Lightly",
+            itemUrl: "https://lightly.teamcode.com/",
+            itemImg: "https://lightly.teamcode.com/favicon.svg",
+          },
+          {
+            itemName: "JS Garden",
+            itemUrl: "http://bonsaiden.github.io/JavaScript-Garden/zh/",
+            itemImg:
+              "https://bonsaiden.github.io/JavaScript-Garden/favicon.ico?v=2",
           },
         ],
       ],
