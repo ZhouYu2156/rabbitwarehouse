@@ -26,6 +26,7 @@ class App extends React.Component {
     this.state = {
       flag: true,
       sponsor: false,
+      imgData: null,
     };
   }
   displayBg = (ps) => {
@@ -35,10 +36,11 @@ class App extends React.Component {
       };
     });
   };
-  switchSponsor = (like) => {
+  switchSponsor = (like, img) => {
     this.setState((state, props) => {
       return {
         sponsor: like,
+        imgData: img,
       };
     });
   };
@@ -54,7 +56,7 @@ class App extends React.Component {
         {/* 切换背景按钮组件 */}
         <SwitchButton displayBg={this.displayBg} />
         {/* 个人联系方式展示组件 */}
-        <Modals sponsor={this.state.sponsor} />
+        <Modals sponsor={this.state.sponsor} imgData={this.state.imgData} />
       </div>
     );
   }

@@ -25,7 +25,7 @@ export default class Modals extends React.Component {
             </div>
             <div className="modal-body text-center">
               <img
-                src="https://gitee.com/zhouyu2156/rabbitwarehouse/tree/master/DevelopmentCode/Programming/src/assets/sponsor.JPG"
+                src={this.props.imgData}
                 alt=""
                 style={{ width: "15rem", height: "15rem" }}
               />

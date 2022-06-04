@@ -1,35 +1,50 @@
 import React from "react";
+import sponsorCode from "../../assets/sponsor.JPG";
+import wechatCode from "../../assets/WeChat.JPG";
 
 export default class Relation extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       like: false,
+      wechat: false,
       github: "https://github.com/ZhouYu2156",
       gitee: "https://gitee.com/zhouyu2156",
       envelope: "QQ邮箱: 1043744584@qq.com",
       chat: "微信号: LiXiaoYao2156",
+      img: null,
     };
   }
   stopClick = (e) => {
     e.preventDefault();
   };
-  like = (e) => {
+  show = (e) => {
     e.preventDefault();
     this.setState(
       (state, props) => {
         return {
           like: !state.like,
+          img: sponsorCode,
         };
       },
       () => {
-        this.props.switchSponsor(this.state.like);
+        this.props.switchSponsor(this.state.like, this.state.img);
       }
     );
   };
-  // 二维码的展示
-  switchCode = () => {
-    return;
+  weChatCode = (e) => {
+    e.preventDefault();
+    this.setState(
+      (state, props) => {
+        return {
+          wechat: !state.wechat,
+          img: wechatCode,
+        };
+      },
+      () => {
+        this.props.switchSponsor(this.state.wechat, this.state.img);
+      }
+    );
   };
   render() {
     const { github, gitee, envelope, chat } = this.state;
@@ -86,23 +101,43 @@ export default class Relation extends React.Component {
         </div>
         <div>
           {/* 微信联系 */}
-          <a href={chat} onClick={this.stopClick}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              className="bi bi-chat-dots-fill"
-              viewBox="0 0 16 16"
+          {this.state.wechat ? (
+            <a href={chat} onClick={this.weChatCode}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-chat-dots-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+              </svg>
+            </a>
+          ) : (
+            <a
+              href={chat}
+              onClick={this.weChatCode}
+              data-bs-target="#relations"
+              data-bs-toggle="modal"
             >
-              <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
-            </svg>
-          </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-chat-dots-fill"
+                viewBox="0 0 16 16"
+              >
+                <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+              </svg>
+            </a>
+          )}
         </div>
         <div>
           {/* 赞助 */}
           {this.state.like ? (
-            <a href={"javascript(void);"} onClick={this.like}>
+            <a href={"javascript(void);"} onClick={this.show}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -120,7 +155,7 @@ export default class Relation extends React.Component {
           ) : (
             <a
               href={"javascript(void);"}
-              onClick={this.like}
+              onClick={this.show}
               data-bs-target="#relations"
               data-bs-toggle="modal"
             >
