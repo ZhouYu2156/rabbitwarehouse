@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 // 导入bootstrap样式
 import "bootstrap/dist/css/bootstrap.min.css";
 // 星空组件
-import Canvas from "./components/Canvas";
+import StarCanvas from "./components/StarCanvas";
 // 代码雨组件
 import CodeRainCanvas from "./components/CodeRain";
 // 内容主体组件
@@ -47,8 +47,8 @@ class App extends React.Component {
   render() {
     return (
       <div id="app">
-        {/* 绘制星空组件 */}
-        {this.state.flag ? <Canvas /> : <CodeRainCanvas />}
+        {/* 绘制Canvas组件 */}
+        {this.state.flag ? <StarCanvas /> : <CodeRainCanvas />}
         {/* 主体内容组件*/}
         <Content />
         {/* 联系方式组件 */}

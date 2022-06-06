@@ -2,7 +2,7 @@ import React from "react";
 import initBg from "./star";
 
 // 创建Canvas绘制网页背景图组件
-export default class Canvas extends React.Component {
+export default class StarCanvas extends React.Component {
   componentDidMount() {
     initBg(document.getElementById("cxt"));
     let timer = null;

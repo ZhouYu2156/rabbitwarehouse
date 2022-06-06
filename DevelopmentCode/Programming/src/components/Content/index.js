@@ -1018,6 +1018,28 @@ export default class Content extends React.Component {
               "https://bonsaiden.github.io/JavaScript-Garden/favicon.ico?v=2",
           },
         ],
+        [
+          {
+            itemName: "开源地理空间基金会",
+            itemUrl: "https://www.osgeo.cn/",
+            itemImg: "https://www.osgeo.cn/favicon.ico",
+          },
+          {
+            itemName: "希赛网",
+            itemUrl: "https://www.educity.cn/",
+            itemImg: "https://www.educity.cn/favicon.ico",
+          },
+          {
+            itemName: "开源地理空间基金会",
+            itemUrl: "https://www.osgeo.cn/",
+            itemImg: "https://www.osgeo.cn/favicon.ico",
+          },
+          {
+            itemName: "希赛网",
+            itemUrl: "https://www.educity.cn/",
+            itemImg: "https://www.educity.cn/favicon.ico",
+          },
+        ],
       ],
     };
   }
