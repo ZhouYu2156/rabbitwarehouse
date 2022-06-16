@@ -1,4 +1,4 @@
-#### 1、常用快捷键
+## 1、常用快捷键
 
 **Alt + Shift + F	格式化文档**
 **Alt + ↑ / ↓		上下移动光标所在行位置**
@@ -23,7 +23,9 @@
 
 **Ctrl + Shift + P	打开设置选项搜索**
 
-#### 2、提高代码编辑效率的扩展库
+## 2、提高代码编辑效率的扩展库
+
+**ES7+ React/Redux/React-Native/JS	快速生成React组件结构**
 
 **JavaScript (ES6) code snippets	代码快捷键和规范**
 
@@ -79,7 +81,7 @@
   "editor.cursorSurroundingLinesStyle": "default",
   "editor.fontWeight": "bold",
   // 代码规范配置ESLint 开始 => 在保存时自动格式化为ESLint代码规范
-  "prettier.configPath": "C:\\Users\\ZhouYu123\\.prettierrc",
+  /* "prettier.configPath": "C:\\Users\\ZhouYu123\\.prettierrc",
   "eslint.alwaysShowStatus": true,
   "prettier.trailingComma": "none",
   "prettier.semi": false,
@@ -106,7 +108,7 @@
   // ESlint插件配置
   "editor.codeActionsOnSave": {
     "source.fixAll": true
-  },
+  }, */
   // 代码规范配置ESLint 结束  => 在保存时自动格式化为ESLint代码规范
   // 导入文件时是否携带文件的扩展名
   "path-autocomplete.extensionOnImport": true,
@@ -115,6 +117,8 @@
     "@": "${folder}/src"
   },
   "editor.fontSize": 26,
+  "workbench.tree.indent": 4,
+  "editor.detectIndentation": true,
   "files.autoSave": "onWindowChange",
   "liveServer.settings.donotShowInfoMsg": true,
   "extensions.ignoreRecommendations": true,
@@ -129,7 +133,7 @@
   },
   "explorer.confirmDelete": false,
   "workbench.iconTheme": "vscode-icons",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 26,
   "editor.formatOnSave": true,
   "editor.hover.delay": 1000,
   "editor.wordWrap": "on",
@@ -137,11 +141,11 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   //这里是React代码风格的配置
-  /* "files.associations": {
+  "files.associations": {
     "*.js": "javascriptreact",
     "*.wxs": "javascript",
     "*.wxss": "css"
-  }, */
+  },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -163,7 +167,6 @@
   "editor.minimap.enabled": false,
   "editor.guides.indentation": false,
   "cSpell.userWords": [],
-  "window.zoomLevel": -1,
   "workbench.preferredHighContrastLightColorTheme": "Solarized Dark",
   "workbench.statusBar.visible": true,
   "auto-close-tag.activationOnLanguage": [
@@ -200,6 +203,12 @@
   "diffEditor.wordWrap": "inherit",
   "editor.minimap.scale": 1,
   "editor.minimap.showSlider": "mouseover",
+  "editor.mouseWheelZoom": true,
+  "editor.linkedEditing": true,
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "window.zoomLevel": 1,
 }
 ```
 
